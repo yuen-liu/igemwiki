@@ -15,8 +15,8 @@ interface Achievement {
 const achievements: Achievement[] = [
   {
     year: 2025,
-    projectName: "[Project Name]",
-    projectDescription: "Brief description of the project, its goals, and the biological systems developed to address a specific challenge.",
+    projectName: "Mos(QUIT)o",
+    projectDescription: "Engineered Pseudomanas putida to produce rhamnolipids, an effective repellent to disease-carrying mosquitoes.",
     medal: "Gold",
     specialAwards: [
       "[Award Category]",
