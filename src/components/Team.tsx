@@ -23,6 +23,7 @@ const teamData2026: TeamMember[] = [
     email: "bgl2126@columbia.edu",
     github: "https://github.com/yuen-liu",
     linkedin: "#",
+    image: "/photos/bridget.png"
   },
   {
     name: "Hannah Moon",
@@ -153,9 +154,17 @@ export function Team() {
               >
                 <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
                   <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center">
+                  {member.image ? (
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
                     <span className="text-3xl font-bold text-blue-600">
                       {member.name.split(' ').map(n => n[0]).join('')}
                     </span>
+                  )}
                   </div>
                 </div>
                 <div className="p-6">
