@@ -14,66 +14,71 @@ interface Achievement {
 // Example past achievements - easily extensible for each year
 const achievements: Achievement[] = [
   {
-    year: 2025,
+    year: 2018,
+    projectName: "Portable STI Diagnostic",
+    projectDescription: "Portable test for chlamydia and gonorrhea.",
+    medal: "Bronze",
+    specialAwards: [],
+    highlights: [],
+    wikiUrl: "https://2018.igem.org/Team:ColumbiaNYC/Project",
+    imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWFnbm9zdGljfGVufDF8fHx8MTc2ODU4MjQ0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+  },
+  {
+    year: 2017,
+    projectName: "SilenshR",
+    projectDescription: "Utilized recombinant E. coli to precisely infiltrate hypoxic tumor centers, releasing shRNA therapies that stop cancerous growth without harming healthy cells.",
+    medal: "Silver",
+    specialAwards: [],
+    highlights: [],
+    wikiUrl: "https://2017.igem.org/Team:ColumbiaNYC",
+    imageUrl: "https://static.igem.org/mediawiki/2017/thumb/5/57/COLUMBIA2017_SLIDE7.png/800px-COLUMBIA2017_SLIDE7.png",
+  },
+  {
+    year: 2016,
     projectName: "Mos(QUIT)o",
     projectDescription: "Engineered Pseudomanas putida to produce rhamnolipids, an effective repellent to disease-carrying mosquitoes.",
     medal: "Gold",
-    specialAwards: [
-      "[Award Category]",
-      "[Award Category]",
-      "[Award Category]",
-    ],
-    highlights: [
-      "Key achievement or metric demonstrating project success",
-      "Important partnership or collaboration during the project",
-      "Publication or dissemination of research findings",
-      "Real-world deployment or pilot testing of the solution",
-    ],
-    wikiUrl: "#",
-    imageUrl: "https://images.unsplash.com/photo-1592413710694-d7837cbdacc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkbmElMjBzeW50aGV0aWMlMjBiaW9sb2d5fGVufDF8fHx8MTc2ODU4MjQ0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    specialAwards: [],
+    highlights: [],
+    wikiUrl: "https://2016.igem.org/Team:ColumbiaU_NYC",
+    imageUrl: "https://static.igem.org/mediawiki/2016/c/c5/Mosquito.mp4",
   },
   {
-    year: 2024,
-    projectName: "[Project Name]",
-    projectDescription: "Brief description of the project, its goals, and the biological systems developed to address a specific challenge.",
-    medal: "Gold",
-    specialAwards: [
-      "[Award Category]",
-      "[Award Category]",
-    ],
-    highlights: [
-      "Key achievement or metric demonstrating project success",
-      "Important partnership or collaboration during the project",
-      "Development of protocols or methodologies",
-      "Community engagement or educational outreach",
-    ],
-    wikiUrl: "#",
-    imageUrl: "https://images.unsplash.com/photo-1614308459036-779d0dfe51ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2llbmNlJTIwbGFib3JhdG9yeSUyMHJlc2VhcmNofGVufDF8fHx8MTc2ODU2OTYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
-  },
-  {
-    year: 2023,
-    projectName: "[Project Name]",
-    projectDescription: "Brief description of the project, its goals, and the biological systems developed to address a specific challenge.",
+    year: 2015,
+    projectName: "Probiotic GLP-1 Delivery",
+    projectDescription: "Engineered probiotic consortia for the non-invasive delivery of GLP-1, improving insulin release in patients with Type 2 Diabetes.",
     medal: "Silver",
-    specialAwards: [
-      "[Award Category]",
-    ],
-    highlights: [
-      "Key achievement or metric demonstrating project success",
-      "Performance improvement or optimization achieved",
-      "Field testing or validation in real-world settings",
-      "Design innovations for accessibility or scalability",
-    ],
-    wikiUrl: "#",
-    imageUrl: "https://images.unsplash.com/photo-1614308457932-e16d85c5d053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaWNyb3Njb3BlJTIwbGFib3JhdG9yeXxlbnwxfHx8fDE3Njg1ODI0NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    specialAwards: [],
+    highlights: [],
+    wikiUrl: "https://2015.igem.org/Team:Columbia_NYC",
+    imageUrl: "https://static.igem.org/mediawiki/2015/c/cf/Columbia_NYC_Hippocrates.png",
+  },
+  {
+    year: 2012,
+    projectName: "Light-Sensitive Circuit Board Etching",
+    projectDescription: "Engineered light sensitive Acidithiobacillus ferrooxidans to etch custom circuit boards.",
+    medal: "Bronze",
+    specialAwards: [],
+    highlights: [],
+    wikiUrl: "https://2012.igem.org/Team:Columbia-Cooper-NYC/Main",
+    imageUrl: "http://farm9.staticflickr.com/8456/8049457082_5814030096_b.jpg",
+  },
+  {
+    year: 2011,
+    projectName: "Sustainable Quantum Dot Synthesis",
+    projectDescription: "Engineering E. Coli for sustainable quantum dot synthesis.",
+    medal: "Bronze",
+    specialAwards: [],
+    highlights: [],
+    wikiUrl: "https://2011.igem.org/Team:Columbia-Cooper",
+    imageUrl: "https://static.igem.org/mediawiki/2011/b/b6/BAC1andplasmid.png",
   },
 ];
 
 const stats = [
-  { label: "Years Competing", value: "X+" },
-  { label: "Gold Medals", value: "X" },
-  { label: "Special Awards", value: "X" },
-  { label: "Projects Completed", value: "X" },
+  { label: "Years Competing", value: "6" },
+  { label: "Medals", value: "6" },
+  { label: "Projects Completed", value: "6" },
 ];
 
 export function Achievements() {
@@ -110,7 +115,7 @@ export function Achievements() {
       {/* Stats */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-5xl font-bold text-blue-600 mb-2">{stat.value}</div>
@@ -138,13 +143,24 @@ export function Achievements() {
                 className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200"
               >
                 <div className="grid lg:grid-cols-2">
-                  {/* Image */}
+                  {/* Image/Video */}
                   <div className="relative h-64 lg:h-auto">
-                    <img 
-                      src={achievement.imageUrl}
-                      alt={achievement.projectName}
-                      className="w-full h-full object-cover"
-                    />
+                    {achievement.imageUrl?.endsWith('.mp4') || achievement.imageUrl?.endsWith('.webm') || achievement.imageUrl?.endsWith('.mov') ? (
+                      <video 
+                        src={achievement.imageUrl}
+                        className="w-full h-full object-cover"
+                        controls
+                        muted
+                        loop
+                        playsInline
+                      />
+                    ) : (
+                      <img 
+                        src={achievement.imageUrl}
+                        alt={achievement.projectName}
+                        className="w-full h-full object-cover"
+                      />
+                    )}
                     <div className="absolute top-4 left-4">
                       <div className="flex items-center gap-2 bg-white px-3 py-2 rounded-lg shadow-md">
                         <Calendar className="w-4 h-4 text-gray-600" />
@@ -220,45 +236,6 @@ export function Achievements() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Impact Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Real-World Impact</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our projects don't end at the competition—many have led to continued research, 
-              publications, and real-world applications.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl">
-              <div className="text-4xl font-bold text-blue-600 mb-2">X</div>
-              <div className="font-semibold text-gray-900 mb-2">Peer-Reviewed Publications</div>
-              <p className="text-gray-600 text-sm">
-                Research from our projects published in scientific journals
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl">
-              <div className="text-4xl font-bold text-blue-600 mb-2">X</div>
-              <div className="font-semibold text-gray-900 mb-2">Community Partnerships</div>
-              <p className="text-gray-600 text-sm">
-                Collaborations with organizations to deploy our solutions
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl">
-              <div className="text-4xl font-bold text-blue-600 mb-2">X+</div>
-              <div className="font-semibold text-gray-900 mb-2">BioBricks Contributed</div>
-              <p className="text-gray-600 text-sm">
-                Novel genetic parts added to the iGEM Registry for future teams
-              </p>
-            </div>
           </div>
         </div>
       </section>
