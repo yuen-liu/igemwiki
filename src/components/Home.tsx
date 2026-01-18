@@ -171,7 +171,7 @@ export function Home({ onNavigate }: HomeProps) {
             <div className="relative">
               <div className="aspect-[4/3] rounded-xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1739298061740-5ed03045b280?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbiUyMG1lZXRpbmd8ZW58MXx8fHwxNzY4NTA3Mzc1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="/photos/logo.jpg"
                   alt="Team collaboration"
                   className="w-full h-full object-cover"
                 />
