@@ -66,7 +66,7 @@ const proposedProjects: Project[] = [
       "Demonstrate retention of protein function after intracellular delivery using a model protein",
     ],
     impact: "Solves the 'endosomal trapping' bottleneck for protein therapeutics, enabling new treatments for intracellular targets (e.g., insulin pills).",
-    status: "in-progress",
+    status: "proposed",
     icon: Pill,
   },
 ];
