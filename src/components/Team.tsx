@@ -70,7 +70,7 @@ const teamData2026: TeamMember[] = [
     year: "Freshman",
     bio: "Grace is a freshman at Columbia SEAS studying Computer Science. She is particularly interested in its applications to health and bioinformatics. This year, she is very excited to contribute to the iGem team’s dry lab. In her free time, she enjoys consuming sci-fi books/movies, baking, and scrapbooking.",
     email: "gjc2154@columbia.edu",
-    linkedin: "https://www.linkedin.com/in/grace-cho-704582259/",
+    linkedin: "https://www.linkedin.com/in/grace-j-cho",
     image: "/photos/grace.png"
   },
   {
