@@ -30,7 +30,7 @@ interface Mentor {
   image?: string;
 }
 
-// Example team data - easily extensible for future years
+// Team data - extensible for future years
 const teamData2026: TeamMember[] = [
   {
     name: "Bridget Liu",
@@ -40,7 +40,7 @@ const teamData2026: TeamMember[] = [
     bio: "Bridget is a sophomore at Columbia College studying Computer Science and Biochemistry. She’s interested in the intersection of machine learning, proteins, and genomics. When she’s not hunched over her computer, she enjoys running, painting, and skiing.",
     email: "bgl2126@columbia.edu",
     github: "https://github.com/yuen-liu",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/bridget-liu-944b501ba/",
     image: "/photos/bridget.jpg"
   },
   {
@@ -50,7 +50,7 @@ const teamData2026: TeamMember[] = [
     year: "Sophomore",
     bio: "Hannah is a sophomore at Columbia SEAS studying Chemical Engineering. She’s interested in the intersection between synthetic biology and sustainable manufacturing, and she’s excited to serve as the team’s logistics lead this year! In her free time, she enjoys painting and creative writing. ",
     email: "hm3085@columbia.edu",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/hannahm3085/",
     image: "/photos/blank.png"
   },
   {
@@ -60,7 +60,7 @@ const teamData2026: TeamMember[] = [
     year: "Sophomore",
     bio: "Yuna is a sophomore at Barnard College studying Chemistry on a Chemical Engineering track. She is passionate about synthetic biology applications for space systems, agriculture, and medicine, enjoying solutions oriented around biomimicry. Outside the lab, she loves botany, oil painting, and spending time with her corgi Juno.",
     email: "yfs2103@barnard.edu",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/ystechert/",
     image: "/photos/yuna.png"
   },
   {
@@ -70,6 +70,7 @@ const teamData2026: TeamMember[] = [
     year: "Freshman",
     bio: "Grace is a freshman at Columbia SEAS studying Computer Science. She is particularly interested in its applications to health and bioinformatics. This year, she is very excited to contribute to the iGem team’s dry lab. In her free time, she enjoys consuming sci-fi books/movies, baking, and scrapbooking.",
     email: "gjc2154@columbia.edu",
+    linkedin: "https://www.linkedin.com/in/grace-cho-704582259/",
     image: "/photos/grace.png"
   },
   {
@@ -79,7 +80,7 @@ const teamData2026: TeamMember[] = [
     year: "Sophomore",
     bio: "Cynthia is a sophomore at Columbia SEAS studying materials science. She is interested in using AI/ML for materials discovery, as well as wearable technology for biomedical applications. In her free time, she enjoys reading, dancing, and travelling.",
     email: "cw3771@columbia.edu",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/cynthiawen-/",
     image: "/photos/cynthia.png"
   },
   {
@@ -89,7 +90,7 @@ const teamData2026: TeamMember[] = [
     year: "Freshman",
     bio: "Davud is an undergraduate Biomedical Engineering major and Applied Mathematics minor at Columbia Engineering. When he's not heedlessly in his dorm reading, you can find him creating haphazard playlists or mixing bits of random languages into an abhorrent mess.",
     email: "dbs2192@columbia.edu",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/davud-skenderi/",
     image: "/photos/davud.png"
   },
   {
@@ -99,8 +100,48 @@ const teamData2026: TeamMember[] = [
     year: "Sophomore",
     bio: "Tressel is a sophomore at Columbia College majoring in Neuroscience & Behavior. He is fascinated by the applications of biotechnology in neurosurgery and by the ethical dilemmas underlying modern neurotech. He is proud to be working with the team's wet-lab and logistics divisions, and enjoys reading, running, and weightlifting during his free time.",
     email: "tjh2167@columbia.edu",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/tressel-james-holton-72582b333/",
     image: "/photos/tressel.png"
+  },
+  {
+    name: "Tvesha Ghosh",
+    role: "Research Member",
+    major: "Computer Science",
+    year: "Freshman",
+    bio: "Tvesha is a freshman at Columbia majoring in Computer Science and minoring in Biomedical Engineering. She is driven by her resolve to improve the access, cost, and quality of healthcare in different communities using technology. After hours, she enjoys exploring different forms of photography, art, and different water sports. ",
+    email: "tvg2154@columbia.edu",
+    linkedin: "https://www.linkedin.com/in/tvesha-ghosh-7177a6219/",
+    image: "/photos/tvesha.png"
+  },
+  {
+    name: "Sarah Zhang",
+    role: "Research Member",
+    major: "Biophysics",
+    year: "Freshman",
+    bio: "Sarah is a freshman at Columbia College majoring in Biophysics and studying Organ Performance at The Juilliard School. She is curious about the mechanisms underpinning intricate biological systems, such as those explored in genomics and neuroscience. When she emerges from lab protocols and sheet music, you’ll find her curled in a nook with a book, or wandering lost in a museum.",
+    email: "sz3054@columbia.edu",
+    linkedin: "https://www.linkedin.com/in/sarah-zhang-b3b556392/",
+    image: "/photos/sarah.png"
+  },
+  {
+    name: "Osheen Abraham",
+    role: "Research Member",
+    major: "Chemical Engineering",
+    year: "Freshman",
+    bio: "Osheen is a current freshman at Columbia SEAS, majoring in Chemical Engineering. She is interested in how small-scale molecular decisions shape large-scale biological outcomes, and how engineering tools can be used to intervene in those processes. Outside of research and academics, if she isn’t playing card games or reading Dostoevsky, she’s probably playing with her dog, Mickey, or watching videos of him on her phone.",
+    email: "oa2485@columbia.edu",
+    linkedin: "https://www.linkedin.com/in/osheen-abraham-97448127a/",
+    image: "/photos/osheen.png"
+  },
+  {
+    name: "Lyla Prasad",
+    role: "Research Member",
+    major: "Chemical Engineering",
+    year: "Sophomore",
+    bio: "Lyla is a sophomore at Columbia College majoring in Biophysics and Computer Science. She has a strong interest in protein thermodynamics and computational biology. Outside the lab and classroom, you’ll likely find her reading, painting, or playing basketball.",
+    email: "lp3112@columbia.edu",
+    linkedin: "https://www.linkedin.com/in/lyla-prasad/",
+    image: "/photos/lyla.png"
   },
 ];
 
