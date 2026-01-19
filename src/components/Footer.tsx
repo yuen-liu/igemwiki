@@ -106,11 +106,11 @@ export function Footer({ onNavigate }: FooterProps) {
             <h3 className="font-semibold text-white mb-4">Connect</h3>
             <div className="space-y-3 text-sm mb-4">
               <a 
-                href="mailto:igem@columbia.edu"
+                href="mailto:columbiaigem@gmail.com"
                 className="flex items-center gap-2 hover:text-blue-400 transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                igem@columbia.edu
+                columbiaigem@gmail.com
               </a>
               <a 
                 href="https://igem.org"
@@ -124,21 +124,21 @@ export function Footer({ onNavigate }: FooterProps) {
             </div>
             <div className="flex gap-3">
               <a 
-                href="#"
+                href="https://www.linkedin.com/company/columbia-igem"
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-4 h-4" />
               </a>
               <a 
-                href="#"
+                href="https://www.instagram.com/columbiaigem"
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4" />
               </a>
               <a 
-                href="#"
+                href=""
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
                 aria-label="Twitter"
               >
