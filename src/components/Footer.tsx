@@ -130,21 +130,21 @@ export function Footer({ onNavigate }: FooterProps) {
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-4 h-4 text-gray-700" />
+                <Linkedin className="w-4 h-4 text-white" />
               </a>
               <a 
                 href="https://www.instagram.com/columbiaigem"
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram className="w-4 h-4 text-gray-700" />
+                <Instagram className="w-4 h-4 text-white" />
               </a>
               <a 
                 href=""
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
                 aria-label="Twitter"
               >
-                <Twitter className="w-4 h-4 text-gray-700" />
+                <Twitter className="w-4 h-4 text-white" />
               </a>
             </div>
           </div>
