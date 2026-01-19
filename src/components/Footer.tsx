@@ -126,37 +126,22 @@ export function Footer({ onNavigate }: FooterProps) {
             </div>
             <div className="flex gap-3">
               <a 
-<<<<<<< HEAD
                 href="https://www.linkedin.com/company/columbia-igem"
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
-=======
-                href="#"
-                className="w-8 h-8 bg-white border border-gray-200 rounded-lg flex items-center justify-center hover:bg-blue-50 hover:border-blue-200 transition-colors"
->>>>>>> c19b43c1fc18e50027e5ee27339b6c4b0a9b244c
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-4 h-4 text-gray-700" />
               </a>
               <a 
-<<<<<<< HEAD
                 href="https://www.instagram.com/columbiaigem"
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
-=======
-                href="#"
-                className="w-8 h-8 bg-white border border-gray-200 rounded-lg flex items-center justify-center hover:bg-blue-50 hover:border-blue-200 transition-colors"
->>>>>>> c19b43c1fc18e50027e5ee27339b6c4b0a9b244c
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4 text-gray-700" />
               </a>
               <a 
-<<<<<<< HEAD
                 href=""
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
-=======
-                href="#"
-                className="w-8 h-8 bg-white border border-gray-200 rounded-lg flex items-center justify-center hover:bg-blue-50 hover:border-blue-200 transition-colors"
->>>>>>> c19b43c1fc18e50027e5ee27339b6c4b0a9b244c
                 aria-label="Twitter"
               >
                 <Twitter className="w-4 h-4 text-gray-700" />
