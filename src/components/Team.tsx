@@ -41,7 +41,7 @@ const teamData2026: TeamMember[] = [
     email: "bgl2126@columbia.edu",
     github: "https://github.com/yuen-liu",
     linkedin: "#",
-    image: "/photos/blank.png"
+    image: "/photos/bridget.jpg"
   },
   {
     name: "Hannah Moon",
@@ -102,24 +102,6 @@ const teamData2026: TeamMember[] = [
     linkedin: "#",
     image: "/photos/tressel.png"
   },
-  {
-    name: "[Team Member Name]",
-    role: "Research Member",
-    major: "[Major]",
-    year: "[Year]",
-    bio: "Brief bio describing research contributions and expertise.",
-    email: "email@columbia.edu",
-    image: "/photos/blank.png"
-  },
-  {
-    name: "[Team Member Name]",
-    role: "Research Member",
-    major: "[Major]",
-    year: "[Year]",
-    bio: "Brief bio describing research contributions and expertise.",
-    email: "email@columbia.edu",
-    image: "/photos/blank.png"
-  },
 ];
 
 const advisors: Advisor[] = [
@@ -127,7 +109,7 @@ const advisors: Advisor[] = [
     name: "Dr. Allie Obermeyer",
     title: "Faculty Advisor",
     department: "Chemical Engineering at Columbia University",
-    bio: "Brief bio describing expertise and research focus in synthetic biology.",
+    bio: "",
     email: "aco2134@columbia.edu",
     image: "/photos/obermeyer.png"
   },
@@ -135,7 +117,7 @@ const advisors: Advisor[] = [
     name: "Dr. Scott Banta",
     title: "Faculty Advisor",
     department: "Chemical Engineering at Columbia University",
-    bio: "Brief bio describing technical expertise and mentorship areas.",
+    bio: "",
     email: "sbanta@columbia.edu",
     image: "/photos/banta.png"
   },
@@ -143,28 +125,28 @@ const advisors: Advisor[] = [
     name: "Dr. Ruben Gonzalez",
     title: "Faculty Advisor",
     department: "Chemistry at Columbia University",
-    bio: "Brief bio describing technical expertise and mentorship areas.",
+    bio: "",
     email: "rlg2118@columbia.edu",
-    image: "/photos/blank.png"
+    image: "https://www.chem.columbia.edu/sites/www.chem.columbia.edu/files/styles/custom_crop_directory/public/content/pics/people/faculty/rlgonzalez_headshot_2.jpg?itok=rHrsYr1r"
   },
 ];
 
 const mentors: Mentor[] = [
   {
     name: "Adit Anand",
-    title: "Faculty Advisor",
+    title: "PhD Mentor",
     department: "Biomedical Informatics at Columbia University",
-    bio: "Brief bio describing expertise and research focus in synthetic biology.",
+    bio: "Dry Lab Mentor",
     email: "ara2205@cumc.columbia.edu",
-    image: "/photos/blank.png"
+    image: "https://www.dbmi.columbia.edu/wp-content/uploads/2023/08/Anand-Adit-3394.jpg"
   },
   {
     name: "AJ Sillato",
-    title: "Mentor",
+    title: "PhD Mentor",
     department: "Biochemistry at Columbia University",
-    bio: "Brief bio describing technical expertise and mentorship areas.",
+    bio: "Wet Lab Mentor",
     email: "ars2373@columbia.edu",
-    image: "/photos/blank.png"
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQH857CcCabqwg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1627747697273?e=1770249600&v=beta&t=t9dLDsrudeeGheXyHgOVmg9c6hVJSH3FzVv3f-6f54I"
   },
 ];
 
@@ -172,13 +154,13 @@ export function Team() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 sm:py-24">
+      <section className="bg-gradient-to-br from-blue-900 to-blue-800 text-white py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-5xl sm:text-6xl font-bold mb-6">
               Meet Our Team
             </h1>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-xl text-blue-100 leading-relaxed">
               A diverse group of passionate students from across Columbia University, united by 
               our commitment to advancing synthetic biology and making a positive impact on the world.
             </p>

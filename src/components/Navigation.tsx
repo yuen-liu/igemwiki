@@ -35,9 +35,11 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
             onClick={() => handleNavClick('home')}
             className="flex items-center space-x-3"
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">CU</span>
-            </div>
+            <img 
+              src="/photos/logo.jpg" 
+              alt="Columbia iGEM Logo" 
+              className="h-10 w-auto object-contain"
+            />
             <div className="hidden sm:block">
               <div className="text-lg font-bold text-gray-900">Columbia iGEM</div>
               <div className="text-xs text-gray-500">Synthetic Biology</div>

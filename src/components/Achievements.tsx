@@ -11,7 +11,6 @@ interface Achievement {
   imageUrl?: string;
 }
 
-// Example past achievements - easily extensible for each year
 const achievements: Achievement[] = [
   {
     year: 2018,
@@ -21,22 +20,25 @@ const achievements: Achievement[] = [
     specialAwards: [],
     highlights: [],
     wikiUrl: "https://2018.igem.org/Team:ColumbiaNYC/Project",
-    imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWFnbm9zdGljfGVufDF8fHx8MTc2ODU4MjQ0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    imageUrl: "https://static.igem.org/mediawiki/2018/8/8b/HQ_page_logo.jpg",
   },
   {
     year: 2017,
     projectName: "SilenshR",
-    projectDescription: "Utilized recombinant E. coli to precisely infiltrate hypoxic tumor centers, releasing shRNA therapies that stop cancerous growth without harming healthy cells.",
+    projectDescription:
+      "Utilized recombinant E. coli to precisely infiltrate hypoxic tumor centers, releasing shRNA therapies that stop cancerous growth without harming healthy cells.",
     medal: "Silver",
     specialAwards: [],
     highlights: [],
     wikiUrl: "https://2017.igem.org/Team:ColumbiaNYC",
-    imageUrl: "https://static.igem.org/mediawiki/2017/thumb/5/57/COLUMBIA2017_SLIDE7.png/800px-COLUMBIA2017_SLIDE7.png",
+    imageUrl:
+      "https://static.igem.org/mediawiki/2017/thumb/5/57/COLUMBIA2017_SLIDE7.png/800px-COLUMBIA2017_SLIDE7.png",
   },
   {
     year: 2016,
     projectName: "Mos(QUIT)o",
-    projectDescription: "Engineered Pseudomanas putida to produce rhamnolipids, an effective repellent to disease-carrying mosquitoes.",
+    projectDescription:
+      "Engineered Pseudomanas putida to produce rhamnolipids, an effective repellent to disease-carrying mosquitoes.",
     medal: "Gold",
     specialAwards: [],
     highlights: [],
@@ -46,7 +48,8 @@ const achievements: Achievement[] = [
   {
     year: 2015,
     projectName: "Probiotic GLP-1 Delivery",
-    projectDescription: "Engineered probiotic consortia for the non-invasive delivery of GLP-1, improving insulin release in patients with Type 2 Diabetes.",
+    projectDescription:
+      "Engineered probiotic consortia for the non-invasive delivery of GLP-1, improving insulin release in patients with Type 2 Diabetes.",
     medal: "Silver",
     specialAwards: [],
     highlights: [],
@@ -56,22 +59,26 @@ const achievements: Achievement[] = [
   {
     year: 2012,
     projectName: "Light-Sensitive Circuit Board Etching",
-    projectDescription: "Engineered light sensitive Acidithiobacillus ferrooxidans to etch custom circuit boards.",
+    projectDescription:
+      "Engineered light sensitive Acidithiobacillus ferrooxidans to etch custom circuit boards.",
     medal: "Bronze",
     specialAwards: [],
     highlights: [],
     wikiUrl: "https://2012.igem.org/Team:Columbia-Cooper-NYC/Main",
-    imageUrl: "http://farm9.staticflickr.com/8456/8049457082_5814030096_b.jpg",
+    imageUrl:
+      "http://farm9.staticflickr.com/8456/8049457082_5814030096_b.jpg",
   },
   {
     year: 2011,
     projectName: "Sustainable Quantum Dot Synthesis",
-    projectDescription: "Engineering E. Coli for sustainable quantum dot synthesis.",
+    projectDescription:
+      "Engineering E. Coli for sustainable quantum dot synthesis.",
     medal: "Bronze",
     specialAwards: [],
     highlights: [],
     wikiUrl: "https://2011.igem.org/Team:Columbia-Cooper",
-    imageUrl: "https://static.igem.org/mediawiki/2011/b/b6/BAC1andplasmid.png",
+    imageUrl:
+      "https://static.igem.org/mediawiki/2011/b/b6/BAC1andplasmid.png",
   },
 ];
 
@@ -98,14 +105,14 @@ export function Achievements() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 sm:py-24">
+      <section className="bg-gradient-to-br from-blue-900 to-blue-800 text-white py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-5xl sm:text-6xl font-bold mb-6">
               Our Achievements
             </h1>
-            <p className="text-xl text-gray-700 leading-relaxed">
-              A legacy of excellence in synthetic biology research, with award-winning projects 
+            <p className="text-xl text-blue-100 leading-relaxed">
+              A legacy of excellence in synthetic biology research, with award-winning projects
               that have made real-world impact and advanced the field.
             </p>
           </div>
@@ -116,9 +123,11 @@ export function Achievements() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-5xl font-bold text-blue-600 mb-2">{stat.value}</div>
+            {stats.map((stat) => (
+              <div key={stat.label} className="text-center">
+                <div className="text-5xl font-bold text-blue-700 mb-2">
+                  {stat.value}
+                </div>
                 <div className="text-gray-600 font-medium">{stat.label}</div>
               </div>
             ))}
@@ -126,27 +135,29 @@ export function Achievements() {
         </div>
       </section>
 
-      {/* Timeline of Achievements */}
+      {/* Timeline */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Competition History</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Competition History
+            </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Each year, our team tackles new challenges and pushes the boundaries of synthetic biology.
             </p>
           </div>
 
           <div className="space-y-12">
-            {achievements.map((achievement, index) => (
-              <div 
-                key={index}
+            {achievements.map((achievement) => (
+              <div
+                key={achievement.year}
                 className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200"
               >
                 <div className="grid lg:grid-cols-2">
-                  {/* Image/Video */}
+                  {/* Media */}
                   <div className="relative h-64 lg:h-auto">
-                    {achievement.imageUrl?.endsWith('.mp4') || achievement.imageUrl?.endsWith('.webm') || achievement.imageUrl?.endsWith('.mov') ? (
-                      <video 
+                    {achievement.imageUrl?.endsWith('.mp4') ? (
+                      <video
                         src={achievement.imageUrl}
                         className="w-full h-full object-cover"
                         controls
@@ -155,20 +166,26 @@ export function Achievements() {
                         playsInline
                       />
                     ) : (
-                      <img 
+                      <img
                         src={achievement.imageUrl}
                         alt={achievement.projectName}
                         className="w-full h-full object-cover"
                       />
                     )}
-                    <div className="absolute top-4 left-4">
-                      <div className="flex items-center gap-2 bg-white px-3 py-2 rounded-lg shadow-md">
-                        <Calendar className="w-4 h-4 text-gray-600" />
-                        <span className="font-semibold text-gray-900">{achievement.year}</span>
-                      </div>
+
+                    <div className="absolute top-4 left-4 bg-white px-3 py-2 rounded-lg shadow-md flex items-center gap-2">
+                      <Calendar className="w-4 h-4 text-gray-600" />
+                      <span className="font-semibold text-gray-900">
+                        {achievement.year}
+                      </span>
                     </div>
+
                     <div className="absolute top-4 right-4">
-                      <div className={`px-4 py-2 rounded-lg font-semibold border-2 ${getMedalColor(achievement.medal)}`}>
+                      <div
+                        className={`px-4 py-2 rounded-lg font-semibold border-2 ${getMedalColor(
+                          achievement.medal
+                        )}`}
+                      >
                         <div className="flex items-center gap-2">
                           <Medal className="w-5 h-5" />
                           {achievement.medal} Medal
@@ -186,45 +203,8 @@ export function Achievements() {
                       {achievement.projectDescription}
                     </p>
 
-                    {/* Special Awards */}
-                    {achievement.specialAwards.length > 0 && (
-                      <div className="mb-6">
-                        <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
-                          <Award className="w-5 h-5 text-blue-600" />
-                          Special Awards
-                        </h4>
-                        <div className="flex flex-wrap gap-2">
-                          {achievement.specialAwards.map((award, idx) => (
-                            <span 
-                              key={idx}
-                              className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium"
-                            >
-                              {award}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Highlights */}
-                    <div className="mb-6">
-                      <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
-                        <Trophy className="w-5 h-5 text-blue-600" />
-                        Key Highlights
-                      </h4>
-                      <ul className="space-y-2">
-                        {achievement.highlights.map((highlight, idx) => (
-                          <li key={idx} className="flex items-start gap-2 text-gray-600">
-                            <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                            <span className="text-sm">{highlight}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    {/* Wiki Link */}
                     {achievement.wikiUrl && (
-                      <a 
+                      <a
                         href={achievement.wikiUrl}
                         className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                       >
@@ -245,7 +225,7 @@ export function Achievements() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Help Us Achieve More</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            With your support, we can continue to develop innovative solutions and compete at 
+            With your support, we can continue to develop innovative solutions and compete at
             the highest level of synthetic biology research.
           </p>
           <button className="px-8 py-4 bg-white text-blue-900 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg">
