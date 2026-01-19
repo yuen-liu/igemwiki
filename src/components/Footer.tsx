@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Instagram, Twitter, ExternalLink } from 'lucide-react';
+import { Mail, Linkedin, Instagram, Github, ExternalLink } from 'lucide-react';
 
 type Page = 'home' | 'about' | 'team' | 'projects' | 'achievements' | 'sponsorship';
 
@@ -140,11 +140,13 @@ export function Footer({ onNavigate }: FooterProps) {
                 <Instagram className="w-4 h-4 text-white" />
               </a>
               <a 
-                href=""
+                href="https://github.com/yuen-liu/igemwiki" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
-                aria-label="Twitter"
+                aria-label="GitHub"
               >
-                <Twitter className="w-4 h-4 text-white" />
+                <Github className="w-4 h-4 text-white" />
               </a>
             </div>
           </div>
