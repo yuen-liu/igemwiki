@@ -84,7 +84,7 @@ export function Sponsorship() {
               Partner with us to support cutting-edge synthetic biology research and help develop
               the next generation of scientists, engineers, and innovators.
             </p>
-            <a
+            
               href="mailto:columbiaigem@gmail.com"
               className="px-8 py-4 bg-white text-blue-900 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg inline-flex items-center gap-2"
             >
@@ -105,7 +105,6 @@ export function Sponsorship() {
               groundbreaking research and education.
             </p>
           </div>
-
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { icon: Users, title: "Access to Top Talent", text: "Connect with exceptional students from one of the world's leading universities" },
@@ -134,7 +133,6 @@ export function Sponsorship() {
               Choose a sponsorship level that aligns with your organization's goals and budget.
             </p>
           </div>
-
           <div className="grid md:grid-cols-2 gap-8">
             {sponsorshipTiers.map((tier) => {
               const Icon = tier.icon;
@@ -151,7 +149,6 @@ export function Sponsorship() {
                     <div className="text-3xl font-bold mb-2">{tier.amount}</div>
                     <p className="text-white/90">{tier.description}</p>
                   </div>
-
                   <div className="p-6">
                     <h4 className="font-semibold text-gray-900 mb-4">Benefits Include:</h4>
                     <ul className="space-y-3">
@@ -167,7 +164,6 @@ export function Sponsorship() {
               );
             })}
           </div>
-
           <div className="mt-12 bg-blue-50 border-2 border-blue-200 rounded-xl p-8 text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
               Custom Sponsorship Packages
@@ -176,7 +172,7 @@ export function Sponsorship() {
               We're happy to work with you to create a custom sponsorship package that meets your
               specific needs and objectives.
             </p>
-            <a
+            
               href="mailto:columbiaigem@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
@@ -186,8 +182,8 @@ export function Sponsorship() {
           </div>
         </div>
       </section>
-    {/* Current Sponsors */}
-{/* Current Sponsors */}
+
+      {/* Current Sponsors */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -196,7 +192,6 @@ export function Sponsorship() {
               Thank you to our generous sponsors for supporting Columbia iGEM.
             </p>
           </div>
-
           {/* Gold Sponsors */}
           <div className="mb-12">
             <div className="flex items-center gap-4 mb-6">
@@ -205,7 +200,7 @@ export function Sponsorship() {
               <div className="h-1 flex-1 bg-yellow-400 rounded" />
             </div>
             <div className="flex flex-wrap justify-center gap-6">
-              
+                <a
                 href="https://www.columbiaintech.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -215,7 +210,6 @@ export function Sponsorship() {
               </a>
             </div>
           </div>
-
           {/* Silver Sponsors */}
           <div className="mb-12">
             <div className="flex items-center gap-4 mb-6">
@@ -224,7 +218,7 @@ export function Sponsorship() {
               <div className="h-1 flex-1 bg-gray-400 rounded" />
             </div>
             <div className="flex flex-wrap justify-center gap-6">
-              
+                <a
                 href="https://zydususa.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -234,7 +228,6 @@ export function Sponsorship() {
               </a>
             </div>
           </div>
-
         </div>
       </section>
     </div>
