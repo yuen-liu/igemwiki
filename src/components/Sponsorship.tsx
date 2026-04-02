@@ -186,6 +186,56 @@ export function Sponsorship() {
           </div>
         </div>
       </section>
+    {/* Current Sponsors */}
+<section className="py-16 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Sponsors</h2>
+      <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+        Thank you to our generous sponsors for supporting Columbia iGEM.
+      </p>
+    </div>
+
+    {/* Gold Sponsors */}
+    <div className="mb-12">
+      <div className="flex items-center gap-4 mb-6">
+        <div className="h-1 flex-1 bg-yellow-400 rounded" />
+        <h3 className="text-2xl font-bold text-yellow-600">Gold Sponsors</h3>
+        <div className="h-1 flex-1 bg-yellow-400 rounded" />
+      </div>
+      <div className="flex flex-wrap justify-center gap-6">
+        
+          href="https://www.columbiaintech.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-10 py-6 bg-yellow-50 border-2 border-yellow-400 rounded-xl text-yellow-700 font-bold text-xl hover:bg-yellow-100 transition-colors shadow"
+        >
+          Columbia in Tech
+        </a>
+      </div>
+    </div>
+
+    {/* Silver Sponsors */}
+    <div className="mb-12">
+      <div className="flex items-center gap-4 mb-6">
+        <div className="h-1 flex-1 bg-gray-400 rounded" />
+        <h3 className="text-2xl font-bold text-gray-500">Silver Sponsors</h3>
+        <div className="h-1 flex-1 bg-gray-400 rounded" />
+      </div>
+      <div className="flex flex-wrap justify-center gap-6">
+        
+          href="https://zydususa.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-10 py-6 bg-gray-50 border-2 border-gray-400 rounded-xl text-gray-600 font-bold text-xl hover:bg-gray-100 transition-colors shadow"
+        >
+          Zydus Pharmaceuticals
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
     </div>
   );
 }
