@@ -1,4 +1,5 @@
-import { Check, DollarSign, Users, Briefcase, Building2, Mail } from 'lucide-react';
+import React from "react";
+import { Check, DollarSign, Users, Briefcase, Building2, Mail } from "lucide-react";
 
 interface SponsorshipTier {
   name: string;
@@ -84,7 +85,8 @@ export function Sponsorship() {
               Partner with us to support cutting-edge synthetic biology research and help develop
               the next generation of scientists, engineers, and innovators.
             </p>
-            
+
+            <a
               href="mailto:columbiaigem@gmail.com"
               className="px-8 py-4 bg-white text-blue-900 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg inline-flex items-center gap-2"
             >
@@ -107,10 +109,26 @@ export function Sponsorship() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: Users, title: "Access to Top Talent", text: "Connect with exceptional students from one of the world's leading universities" },
-              { icon: Briefcase, title: "Brand Visibility", text: "Showcase your company at international competitions and academic events" },
-              { icon: Building2, title: "Innovation Partnership", text: "Support cutting-edge research that could drive future breakthroughs" },
-              { icon: DollarSign, title: "Tax Deductible", text: "Contributions are tax-deductible through Columbia University" },
+              {
+                icon: Users,
+                title: "Access to Top Talent",
+                text: "Connect with exceptional students from one of the world's leading universities",
+              },
+              {
+                icon: Briefcase,
+                title: "Brand Visibility",
+                text: "Showcase your company at international competitions and academic events",
+              },
+              {
+                icon: Building2,
+                title: "Innovation Partnership",
+                text: "Support cutting-edge research that could drive future breakthroughs",
+              },
+              {
+                icon: DollarSign,
+                title: "Tax Deductible",
+                text: "Contributions are tax-deductible through Columbia University",
+              },
             ].map(({ icon: Icon, title, text }) => (
               <div key={title} className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -172,7 +190,8 @@ export function Sponsorship() {
               We're happy to work with you to create a custom sponsorship package that meets your
               specific needs and objectives.
             </p>
-            
+
+            <a
               href="mailto:columbiaigem@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
@@ -192,6 +211,7 @@ export function Sponsorship() {
               Thank you to our generous sponsors for supporting Columbia iGEM.
             </p>
           </div>
+
           {/* Gold Sponsors */}
           <div className="mb-12">
             <div className="flex items-center gap-4 mb-6">
@@ -200,7 +220,7 @@ export function Sponsorship() {
               <div className="h-1 flex-1 bg-yellow-400 rounded" />
             </div>
             <div className="flex flex-wrap justify-center gap-6">
-                <a
+              <a
                 href="https://www.columbiaintech.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -210,6 +230,7 @@ export function Sponsorship() {
               </a>
             </div>
           </div>
+
           {/* Silver Sponsors */}
           <div className="mb-12">
             <div className="flex items-center gap-4 mb-6">
@@ -218,7 +239,7 @@ export function Sponsorship() {
               <div className="h-1 flex-1 bg-gray-400 rounded" />
             </div>
             <div className="flex flex-wrap justify-center gap-6">
-                <a
+              <a
                 href="https://zydususa.com/"
                 target="_blank"
                 rel="noopener noreferrer"
