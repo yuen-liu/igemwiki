@@ -143,6 +143,46 @@ const teamData2026: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/lyla-prasad/",
     image: "/photos/lyla.png"
   },
+  {
+    name: "Leela Iyer",
+    role: "Research Member",
+    major: "Data Science, Biomedical Engineering",
+    year: "Freshman",
+    bio: "Leela is a freshman at Barnard College majoring in math and computer science on the pre-med track. She is specifically interested in the mathematical modeling of biological systems and how these models help further and shape clinical outcomes. Outside of research and the classroom, you can find her with a book or in the theatre (on stage and off!)",
+    email: "lki2112@barnard.edu",
+    linkedin: "https://www.linkedin.com/in/leela-iyer34/",
+    image: "/photos/leela.png"
+  },
+  {
+    name: "Sherry Guo",
+    role: "Research Member",
+    major: "Biochemistry, Public Health",
+    year: "Sophomore",
+    bio: "Sherry is a sophomore at Columbia College studying biochemistry and public health on the premedical track. Motivated by both medicine and science, she is particularly drawn to translational research focused on cancer and Alzheimer’s disease. Alongside academics, she enjoys playing volleyball, exploring new cafes, and going for walks in parks (when it's not freezing).",
+    email: "sg4487@columbia.edu",
+    linkedin: "https://www.linkedin.com/in/sherryguoo/",
+    image: "/photos/sherry.png"
+  },
+  {
+    name: "Andrew Meng",
+    role: "Research Member",
+    major: "Computer Science, Theoretical Neuroscience",
+    year: "Sophomore",
+    bio: "Andrew is a sophomore at Columbia SEAS studying Computer Science & Theoretical Neuroscience. He is interested in connectomics, the basis of biological intelligence, and NeuroAI. In his free time, he rows with C150, vaporizes baguettes, and watches clouds pass by.",
+    email: "am6950@columbia.edu",
+    linkedin: "https://www.linkedin.com/in/andrew-meng-4b4b0a216/",
+    image: "/photos/blank.png"
+  },
+  {
+    name: "Vignesh Karthik",
+    role: "Research Member",
+    major: "Appled Mathematics",
+    year: "Junior",
+    bio: "Vignesh Karthik is a current Junior at Columbia Engineering studying Applied Mathematics. Previously, he was a Co-Founder of a bio-manufacturing startup called Anthrogen, where he focused his efforts on deep learning for protein design and raised a $4.2 million seed round from YCombinator, BoxGroup and other notable VCs. He returned to Columbia to focus on his passion for genetics, and joined the Liu Lab to help design proteins that can be used for epigenetic editing. Outside of the lab, Vignesh loves exploring the coffee scene here in New York!",
+    email: "vk2504@columbia.edu",
+    linkedin: "https://www.linkedin.com/in/vigkart/",
+    image: "/photos/blank.png"
+  },
 ];
 
 const advisors: Advisor[] = [
